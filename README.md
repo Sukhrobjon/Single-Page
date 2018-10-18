@@ -9,3 +9,5 @@
    * [X] Users can view one translation (show)
    * [X] Users can delete a translation (destroy)
    * [X] Users can edit a translation (edit/update)
+
+- You can interect with MVP wersion of the Single-Page [here](https://single-page-mvp.herokuapp.com/)
