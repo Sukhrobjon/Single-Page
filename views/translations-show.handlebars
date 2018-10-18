@@ -5,3 +5,10 @@
 <p>{{translation.synonym}}</p>
 
 <p><a href="/translations/{{translation._id}}/edit">Edit</a></p>
+
+{{!-- Delete Button --}}
+<p>
+    <form method="POST" action="/translations/{{translation._id}}?_method=DELETE">
+        <button type="submit">Delete</button>
+    </form>
+</p>

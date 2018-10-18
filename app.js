@@ -86,6 +86,15 @@ app.put('/translations/:id', (req, res) => {
         })
 })
 
+// DELETE
+app.delete('/translations/:id', function (req, res) {
+    console.log("DELETE Translation")
+    Translation.findByIdAndRemove(req.params.id).then((translation) => {
+        res.redirect('/');
+    }).catch((err) => {
+        console.log(err.message);
+    })
+});
 
 app.listen(port, () => {
     console.log('App listening on port 3000!')
