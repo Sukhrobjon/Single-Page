@@ -1,9 +1,9 @@
 # Intensive Week Project 
 - Single Page
 
-- User Stories
-    1. Users can view all the translated words (index)
-    2. Users can create a new translation (new/create)
-    3. Users can view one translation (show)
-    4. Users can delete a translation (destroy)
-    5. Users can edit a translation (edit/update)
+## User Stories
+    [X] Users can view all the translated words (index)
+    [X] Users can create a new translation (new/create)
+    [X] Users can view one translation (show)
+    [X] Users can delete a translation (destroy)
+    [X] Users can edit a translation (edit/update)
