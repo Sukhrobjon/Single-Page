@@ -3,7 +3,7 @@
 <a href="/translations/new">Add New Translation</a>
 
 {{#each translations}}
-    <h2>{{this.word}}</h2>
+    <h2><a href="/translations/{{this._id}}">{{this.word}}</a></h2>
     <h3>{{this.trans}}</h3>
     <small>{{this.synonym}}</small>
 {{/each}}

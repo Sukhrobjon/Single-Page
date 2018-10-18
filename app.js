@@ -46,13 +46,20 @@ app.get('/translations/new', (req, res) => {
 app.post('/translations', (req, res) => {
     Translation.create(req.body).then((translation) => {
         console.log(translation);
-        res.redirect('/');
+        res.redirect(`/translations/${translation._id}`);
     }).catch((err) => {
         console.log(err.message);
     })
 });
 
-
+// SHOW
+app.get('/translations/:id', (req, res) => {
+    Translation.findById(req.params.id).then((translation) => {
+        res.render('translations-show', { translation: translation })
+    }).catch((err) => {
+        console.log(err.message);
+    })
+});
 
 app.listen(port, () => {
     console.log('App listening on port 3000!')
