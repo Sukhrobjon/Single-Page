@@ -1,19 +1,21 @@
 
 <fieldset>
     <legend>Edit Word</legend>
-    <!-- word -->
-    <p>
+    <!-- Word -->
+    <div class="form-group">
         <label for="word">New Word</label><br>
-        <input type="text" name="word" value="{{translation.word}}" />
-    </p>
+        <input class="form-control" id="word" type="text" name="word" value="{{translation.word}}" />
+    </div>
+
     {{!-- Translatoin --}}
-    <p>
+    <div class="form-group">
         <label for="trans">Translation</label><br>
-        <input type="text" name="trans" value="{{translation.trans}}" />
-    </p>
+        <input class="form-control" id="trans" type="text" name="trans" value="{{translation.trans}}" />
+    </div>
+
     {{!-- Synonym --}}
-    <p>
+    <div class="form-group">
         <label for="synonym">Synonym</label><br>
-        <textarea id="synonym" name="synonym" rows="3" />{{translation.synonym}}</textarea>
-    </p>
+        <textarea class="form-control" id="synonym" name="synonym" rows="10" />{{translation.synonym}}</textarea>
+    </div>
 </fieldset>

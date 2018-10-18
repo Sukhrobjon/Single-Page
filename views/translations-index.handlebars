@@ -1,9 +1,14 @@
 <!-- translations-index -->
 <h1>Translations</h1>
 <a href="/translations/new">Add New Translation</a>
+<div class="row">
+    {{#each translations}}
+        <div class="col-sm-3">
+            <h2><a href="/translations/{{this._id}}">{{this.word}}</a></h2>
+            <h3>{{this.trans}}</h3>
+            <small>{{this.synonym}}</small>
+        </div>
+    {{/each}}
+</div>
 
-{{#each translations}}
-    <h2><a href="/translations/{{this._id}}">{{this.word}}</a></h2>
-    <h3>{{this.trans}}</h3>
-    <small>{{this.synonym}}</small>
-{{/each}}
+

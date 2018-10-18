@@ -1,10 +1,12 @@
 <!-- views/translations-new.handlebars -->
-
-<form method="POST" action="/translations/{{translation._id}}?_method=PUT">
-    {{> translations-form }}
-    <!-- BUTTON -->
-    <p>
-        <button type="submit">Save Word</button>
-    </p>
-
-</form>
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+        <form method="POST" action="/translations/{{translation._id}}?_method=PUT">
+            {{> translations-form}}
+            <!-- BUTTON -->
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Save Word</button>
+            </div>
+        </form>
+    </div>
+</div>
