@@ -1,5 +1,6 @@
 # Intensive Week Project 
-- Single Page
+### Single Page
+  - It is a website where the user can read a file and translated the new words and keep them in the notes
 
 ## User Stories
 
