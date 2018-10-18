@@ -1,0 +1,19 @@
+
+<fieldset>
+    <legend>Edit Word</legend>
+    <!-- word -->
+    <p>
+        <label for="word">New Word</label><br>
+        <input type="text" name="word" value="{{translation.word}}" />
+    </p>
+    {{!-- Translatoin --}}
+    <p>
+        <label for="trans">Translation</label><br>
+        <input type="text" name="trans" value="{{translation.trans}}" />
+    </p>
+    {{!-- Synonym --}}
+    <p>
+        <label for="synonym">Synonym</label><br>
+        <textarea id="synonym" name="synonym" rows="3" />{{translation.synonym}}</textarea>
+    </p>
+</fieldset>

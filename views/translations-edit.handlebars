@@ -1,8 +1,7 @@
 <!-- views/translations-new.handlebars -->
 
-<form method="POST" action="/translations">
+<form method="POST" action="/translations/{{translation._id}}?_method=PUT">
     {{> translations-form }}
-
     <!-- BUTTON -->
     <p>
         <button type="submit">Save Word</button>
