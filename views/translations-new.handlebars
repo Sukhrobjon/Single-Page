@@ -1,0 +1,26 @@
+<!-- views/translations-new.handlebars -->
+
+<form method="POST" action="/translations">
+    <fieldset>
+        <legend>Add new Word</legend>
+        <!-- word -->
+        <p>
+            <label for="word">New Word</label><br>
+            <input type="text" name="word" />
+        </p>
+        <p>
+            <label for="trans">Translation</label><br>
+            <input type="text" name="trans" />
+        </p>
+        <p>
+            <label for="synonym">Synonym</label><br>
+            <input type="text" name="synonym" />
+        </p>
+    </fieldset>
+
+    <!-- BUTTON -->
+    <p>
+        <button type="submit">Save Word</button>
+    </p>
+
+</form>
