@@ -12,7 +12,7 @@
    * [X] Users can delete a translation (destroy)
    * [X] Users can edit a translation (edit/update)
 
-- You can interect with MVP wersion of the Single-Page [here](https://single-page-mvp.herokuapp.com/)
+- You can interect with MVP version of the Single-Page [here](https://single-page-mvp.herokuapp.com/)
 
 ## Advanced user stories and more functionlities will be implemented in the future
   * [ ] User will be able to upload a file or text
